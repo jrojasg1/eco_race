@@ -398,7 +398,7 @@
 		</data>
 		<key>Resources/Data/boot.config</key>
 		<data>
-		FBK2SaI4hZ/tRmrTuulhb+4OGOU=
+		2Bxz/QE5ynG08OjLwghgTtBCfUA=
 		</data>
 		<key>Resources/Data/globalgamemanagers</key>
 		<data>
@@ -455,10 +455,10 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			FEilP9Z0qGdsE8SWiHGMarffUbM=
+			v+OPOx8I+98xVlmAjuqLRlw5pfo=
 			</data>
 			<key>requirement</key>
-			<string>cdhash H"1448a53fd674a8676c13c49688718c6ab7df51b3"</string>
+			<string>cdhash H"bfe38f3b1f08fbdf315659808eea8b465c39a5fa" or cdhash H"ec922382feca0e64daaca160fe0a3a29e17ad009"</string>
 		</dict>
 		<key>Frameworks/libMonoPosixHelper.dylib</key>
 		<dict>
@@ -467,7 +467,7 @@
 			mTF1gqUoob11nxfbtm3CtM6HXKI=
 			</data>
 			<key>requirement</key>
-			<string>cdhash H"99317582a528a1bd759f17dbb66dc2b4ce875ca2"</string>
+			<string>cdhash H"99317582a528a1bd759f17dbb66dc2b4ce875ca2" or cdhash H"7f938efdd75ca788edbc5cd83a1a4a92d875dac3"</string>
 		</dict>
 		<key>Frameworks/libmono-native.dylib</key>
 		<dict>
@@ -476,7 +476,7 @@
 			ec+POu5nf9K9M2ddr6KuIEWBGac=
 			</data>
 			<key>requirement</key>
-			<string>cdhash H"79cf8f3aee677fd2bd33675dafa2ae20458119a7"</string>
+			<string>cdhash H"79cf8f3aee677fd2bd33675dafa2ae20458119a7" or cdhash H"0422ff231d4e7e74d71ca4f9977ac155b69d445a"</string>
 		</dict>
 		<key>Frameworks/libmonobdwgc-2.0.dylib</key>
 		<dict>
@@ -485,7 +485,7 @@
 			VEZmAztM2PE2b0APcihlKKPuPdY=
 			</data>
 			<key>requirement</key>
-			<string>cdhash H"544666033b4cd8f1366f400f72286528a3ee3dd6"</string>
+			<string>cdhash H"544666033b4cd8f1366f400f72286528a3ee3dd6" or cdhash H"89f87b86c7897a86bac7be9606f27089c1a27bc9"</string>
 		</dict>
 		<key>MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser</key>
 		<dict>
@@ -1303,7 +1303,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			M+al7WnH/BwgD4S7EjML6Mixm89k7IIB4qDG+Tm6OOw=
+			CPXaVk4eBMvH5w+8NsuKd8AOtcXvhZOLHkB6P1FaAHw=
 			</data>
 		</dict>
 		<key>Resources/Data/globalgamemanagers</key>

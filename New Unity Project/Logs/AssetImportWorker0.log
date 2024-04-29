@@ -22,7 +22,7 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-60773
+63677
 Successfully changed project path to: /Users/julianrojasgallego/Documents/COMPUTACION_GRAFICA/PROYECTO/eco_race/eco_race/New Unity Project
 /Users/julianrojasgallego/Documents/COMPUTACION_GRAFICA/PROYECTO/eco_race/eco_race/New Unity Project
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -56,12 +56,12 @@ Successfully changed project path to: /Users/julianrojasgallego/Documents/COMPUT
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [4483954176] Host "[IP] 10.161.50.174 [Port] 0 [Flags] 2 [Guid] 622960108 [EditorId] 622960108 [Version] 1048832 [Id] OSXEditor(0,MacBook-Air-de-Elvergon.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [4682106368] Host "[IP] 10.161.50.174 [Port] 0 [Flags] 2 [Guid] 3110814590 [EditorId] 3110814590 [Version] 1048832 [Id] OSXEditor(0,MacBook-Air-de-Elvergon.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [4483954176] Host "[IP] 10.161.50.174 [Port] 0 [Flags] 2 [Guid] 622960108 [EditorId] 622960108 [Version] 1048832 [Id] OSXEditor(0,MacBook-Air-de-Elvergon.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [4682106368] Host "[IP] 10.161.50.174 [Port] 0 [Flags] 2 [Guid] 3110814590 [EditorId] 3110814590 [Version] 1048832 [Id] OSXEditor(0,MacBook-Air-de-Elvergon.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 3 workers.
-Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 31.16 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.26f1 (ec6cd8118806)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.26f1/Unity/Unity.app/Contents/Resources/UnitySubsystems
@@ -76,44 +76,44 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.26f1/Unity/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.26f1/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2022.3.26f1/Unity/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56918
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56221
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2022.3.26f1/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.010599 seconds.
-- Loaded All Assemblies, in  1.254 seconds
+Registered in 0.009342 seconds.
+- Loaded All Assemblies, in  1.848 seconds
 Native extension for OSXStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.026 seconds
-Domain Reload Profiling: 3282ms
-	BeginReloadAssembly (529ms)
+- Finished resetting the current domain, in  1.310 seconds
+Domain Reload Profiling: 3159ms
+	BeginReloadAssembly (587ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (4ms)
-	RebuildCommonClasses (112ms)
-	RebuildNativeTypeToScriptingClass (39ms)
-	initialDomainReloadingComplete (126ms)
-	LoadAllAssembliesAndSetupDomain (448ms)
-		LoadAssemblies (531ms)
+		CreateAndSetChildDomain (3ms)
+	RebuildCommonClasses (157ms)
+	RebuildNativeTypeToScriptingClass (110ms)
+	initialDomainReloadingComplete (255ms)
+	LoadAllAssembliesAndSetupDomain (741ms)
+		LoadAssemblies (589ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (438ms)
-			TypeCache.Refresh (433ms)
-				TypeCache.ScanAssembly (390ms)
+		AnalyzeDomain (726ms)
+			TypeCache.Refresh (720ms)
+				TypeCache.ScanAssembly (679ms)
 			ScanForSourceGeneratedMonoScriptInfo (1ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (2028ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (1311ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1746ms)
+		SetupLoadedEditorAssemblies (938ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (93ms)
-			SetLoadedEditorAssemblies (65ms)
+			InitializePlatformSupportModulesInManaged (30ms)
+			SetLoadedEditorAssemblies (24ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (36ms)
-			ProcessInitializeOnLoadAttributes (1167ms)
-			ProcessInitializeOnLoadMethodAttributes (385ms)
+			BeforeProcessingInitializeOnLoad (8ms)
+			ProcessInitializeOnLoadAttributes (676ms)
+			ProcessInitializeOnLoadMethodAttributes (199ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -121,1376 +121,57 @@ Domain Reload Profiling: 3282ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.599 seconds
-Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
-Native extension for OSXStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.100 seconds
-Domain Reload Profiling: 1699ms
-	BeginReloadAssembly (378ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (20ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (62ms)
-	RebuildCommonClasses (112ms)
-	RebuildNativeTypeToScriptingClass (30ms)
-	initialDomainReloadingComplete (54ms)
-	LoadAllAssembliesAndSetupDomain (25ms)
-		LoadAssemblies (198ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (16ms)
-			TypeCache.Refresh (13ms)
-				TypeCache.ScanAssembly (4ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (1101ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (730ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (8ms)
-			SetLoadedEditorAssemblies (15ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (153ms)
-			ProcessInitializeOnLoadAttributes (490ms)
-			ProcessInitializeOnLoadMethodAttributes (63ms)
-			AfterProcessingInitializeOnLoad (2ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (9ms)
-Launching external process: /Applications/Unity/Hub/Editor/2022.3.26f1/Unity/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.17 seconds
-Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3 unused Assets / (37.4 KB). Loaded Objects now: 477.
-Memory consumption went from 109.0 MB to 108.9 MB.
-Total: 4.345005 ms (FindLiveObjects: 0.107979 ms CreateObjectMapping: 0.007044 ms MarkObjects: 4.086828 ms  DeleteObjects: 0.141172 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 50952.633568 seconds.
-  path: Assets/Scripts
-  artifactKey: Guid(8905ad393972e490187b3c2727d96cc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts using Guid(8905ad393972e490187b3c2727d96cc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c5f48430903395c5f8ed34f13ecb1d0') in 0.002726 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  4.218 seconds
-Refreshing native plugins compatible for Editor in 0.56 ms, found 1 plugins.
+- Loaded All Assemblies, in  2.754 seconds
+Refreshing native plugins compatible for Editor in 2.77 ms, found 1 plugins.
 Native extension for OSXStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  4.169 seconds
-Domain Reload Profiling: 8415ms
-	BeginReloadAssembly (1355ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (20ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (85ms)
-	RebuildCommonClasses (370ms)
-	RebuildNativeTypeToScriptingClass (98ms)
-	initialDomainReloadingComplete (683ms)
-	LoadAllAssembliesAndSetupDomain (1715ms)
-		LoadAssemblies (2167ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (725ms)
-			TypeCache.Refresh (669ms)
-				TypeCache.ScanAssembly (490ms)
-			ScanForSourceGeneratedMonoScriptInfo (31ms)
-			ResolveRequiredComponents (13ms)
-	FinalizeReload (4194ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (3043ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (37ms)
-			SetLoadedEditorAssemblies (18ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (177ms)
-			ProcessInitializeOnLoadAttributes (2649ms)
-			ProcessInitializeOnLoadMethodAttributes (160ms)
-			AfterProcessingInitializeOnLoad (2ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (22ms)
-Refreshing native plugins compatible for Editor in 0.53 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1512 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 60 unused Assets / (3.8 MB). Loaded Objects now: 1947.
-Memory consumption went from 180.2 MB to 176.4 MB.
-Total: 35.324833 ms (FindLiveObjects: 0.235236 ms CreateObjectMapping: 0.176206 ms MarkObjects: 31.789352 ms  DeleteObjects: 3.121604 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  2.178 seconds
-Refreshing native plugins compatible for Editor in 0.39 ms, found 1 plugins.
-Native extension for OSXStandalone target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.063 seconds
-Domain Reload Profiling: 4242ms
-	BeginReloadAssembly (1025ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (17ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (101ms)
-	RebuildCommonClasses (289ms)
-	RebuildNativeTypeToScriptingClass (64ms)
-	initialDomainReloadingComplete (112ms)
-	LoadAllAssembliesAndSetupDomain (688ms)
-		LoadAssemblies (1499ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (32ms)
-			TypeCache.Refresh (12ms)
-				TypeCache.ScanAssembly (1ms)
-			ScanForSourceGeneratedMonoScriptInfo (12ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (2064ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1062ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (8ms)
-			SetLoadedEditorAssemblies (7ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (87ms)
-			ProcessInitializeOnLoadAttributes (922ms)
-			ProcessInitializeOnLoadMethodAttributes (36ms)
-			AfterProcessingInitializeOnLoad (1ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
-Shader 'TextMeshPro/Distance Field SSD': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
-Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
-Refreshing native plugins compatible for Editor in 0.27 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1531 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 78 unused Assets / (4.5 MB). Loaded Objects now: 1956.
-Memory consumption went from 185.3 MB to 180.8 MB.
-Total: 5.788201 ms (FindLiveObjects: 0.169681 ms CreateObjectMapping: 0.058022 ms MarkObjects: 3.539007 ms  DeleteObjects: 2.019884 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-========================================================================
-Received Import Request.
-  Time since last request: 902.129845 seconds.
-  path: Assets/MST_Creator/Car Controller For Unity/Scenes
-  artifactKey: Guid(bbdc0c728e8c5fc4da6ca02448ae2e42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MST_Creator/Car Controller For Unity/Scenes using Guid(bbdc0c728e8c5fc4da6ca02448ae2e42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '480909f15e40e2f896ff31ace1b90b3b') in 0.003446 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 1.420475 seconds.
-  path: Assets/MST_Creator/Car Controller For Unity/Scenes/Track_1
-  artifactKey: Guid(7f7084f2645ff9e46b58e248f960bf9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MST_Creator/Car Controller For Unity/Scenes/Track_1 using Guid(7f7084f2645ff9e46b58e248f960bf9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd8bf0f14d688305c121df99eb386b24') in 0.000834 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.066226 seconds.
-  path: Assets/MST_Creator/Car Controller For Unity/Scenes/Track_1/LightingData.asset
-  artifactKey: Guid(9606f4de43880eb4d979cbd69419358d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MST_Creator/Car Controller For Unity/Scenes/Track_1/LightingData.asset using Guid(9606f4de43880eb4d979cbd69419358d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f13c445371c52585eaa2d4ef1cabbef') in 0.025633 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 8.518415 seconds.
-  path: Assets/MST_Creator/Car Controller For Unity/Scenes/Track_2
-  artifactKey: Guid(5ce0a18e472a68343bbb37bedeabcf39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MST_Creator/Car Controller For Unity/Scenes/Track_2 using Guid(5ce0a18e472a68343bbb37bedeabcf39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdd928971ab87703e28b33125361954d') in 0.000868 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.093453 seconds.
-  path: Assets/MST_Creator/Car Controller For Unity/Scenes/Track_2/OcclusionCullingData.asset
-  artifactKey: Guid(1c26a0ec9a04b4042b8901f8b3ec2b29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MST_Creator/Car Controller For Unity/Scenes/Track_2/OcclusionCullingData.asset using Guid(1c26a0ec9a04b4042b8901f8b3ec2b29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e5b599d416d6a48f30d3703d04eef9e') in 0.110670 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000559 seconds.
-  path: Assets/MST_Creator/Car Controller For Unity/Scenes/Track_2/Track_2_Terrain.asset
-  artifactKey: Guid(e326d08ba7783df40a7fb7324d91f755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MST_Creator/Car Controller For Unity/Scenes/Track_2/Track_2_Terrain.asset using Guid(e326d08ba7783df40a7fb7324d91f755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c6a5b408257d15e7e5234c3c439a6e5') in 0.288032 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 4.492490 seconds.
-  path: Assets/MST_Creator/Car Controller For Unity/Scenes/Track_2/Track_2/OcclusionCullingData.asset
-  artifactKey: Guid(a25e88adae33dce4f8d08e8217d22b5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MST_Creator/Car Controller For Unity/Scenes/Track_2/Track_2/OcclusionCullingData.asset using Guid(a25e88adae33dce4f8d08e8217d22b5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f706ef4a907f888a3558b4206591b95') in 0.121045 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.001814 seconds.
-  path: Assets/MST_Creator/Car Controller For Unity/Scenes/Track_2/Track_2
-  artifactKey: Guid(a0e7012d15e687e47b1a05516f959198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MST_Creator/Car Controller For Unity/Scenes/Track_2/Track_2 using Guid(a0e7012d15e687e47b1a05516f959198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d0080529c7051a66c7c376ba70fc3d5') in 0.002141 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 43.316867 seconds.
-  path: Assets/MST_Creator/Car Controller For Unity/Scenes/Track_2/Track_2.unity
-  artifactKey: Guid(c826712f5785ad443a296086bdcd1d99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MST_Creator/Car Controller For Unity/Scenes/Track_2/Track_2.unity using Guid(c826712f5785ad443a296086bdcd1d99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f59124c597fd1fb3833bb43acf665a86') in 0.000880 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 14.005867 seconds.
-  path: Assets/MST_Creator/Car Controller For Unity/Models/Low Poly Car 1.fbx
-  artifactKey: Guid(aa11055278ae8d84da4d1fbe7f446fdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MST_Creator/Car Controller For Unity/Models/Low Poly Car 1.fbx using Guid(aa11055278ae8d84da4d1fbe7f446fdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b214ba71e16d4abebd9c3c07bce5a360') in 2.304376 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 92
-========================================================================
-Received Import Request.
-  Time since last request: 0.006665 seconds.
-  path: Assets/MST_Creator/Car Controller For Unity/Models/Track (asset 2).fbx
-  artifactKey: Guid(d900a2433953da74b930c6e54269963b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MST_Creator/Car Controller For Unity/Models/Track (asset 2).fbx using Guid(d900a2433953da74b930c6e54269963b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecdbc9985230bc4688e6ff792bc4d9a6') in 0.143059 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 22
-========================================================================
-Received Import Request.
-  Time since last request: 0.000400 seconds.
-  path: Assets/MST_Creator/Car Controller For Unity/Models/Pointer.fbx
-  artifactKey: Guid(3004b630a8232b744b6ce0f4fcb35898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MST_Creator/Car Controller For Unity/Models/Pointer.fbx using Guid(3004b630a8232b744b6ce0f4fcb35898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03fedfbc944ef824a5a26e03b64f1645') in 0.048290 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000133 seconds.
-  path: Assets/MST_Creator/Car Controller For Unity/Models/Track 1.fbx
-  artifactKey: Guid(4364943ee6cac1543bc0dd4fc2c49976) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MST_Creator/Car Controller For Unity/Models/Track 1.fbx using Guid(4364943ee6cac1543bc0dd4fc2c49976) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a88b1f301b0f90aa07311d322466f10') in 0.222486 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 30
-========================================================================
-Received Import Request.
-  Time since last request: 279.541721 seconds.
-  path: Assets/MST_Creator/Car Controller For Unity/Materials/Car_Body.mat
-  artifactKey: Guid(5f7aaca4b95905a45b7491158a24472a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MST_Creator/Car Controller For Unity/Materials/Car_Body.mat using Guid(5f7aaca4b95905a45b7491158a24472a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5fca14be062f41f3965317dc9cb6844') in 0.063240 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000317 seconds.
-  path: Assets/MST_Creator/Car Controller For Unity/Materials/Ground.mat
-  artifactKey: Guid(ad17220815948064e9f671d00b70227d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MST_Creator/Car Controller For Unity/Materials/Ground.mat using Guid(ad17220815948064e9f671d00b70227d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '104812a780c28c8c9a53a09576e56833') in 0.015226 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000508 seconds.
-  path: Assets/MST_Creator/Car Controller For Unity/Materials/Fence.mat
-  artifactKey: Guid(93d35f40ee7847449bded4ca740461cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MST_Creator/Car Controller For Unity/Materials/Fence.mat using Guid(93d35f40ee7847449bded4ca740461cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6bc0eadbac9ea4329897214caeccfa2') in 0.019054 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000235 seconds.
-  path: Assets/MST_Creator/Car Controller For Unity/Materials/Ground.physicMaterial
-  artifactKey: Guid(9a28d2a7fcbdb1644ae9e1ad888077d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MST_Creator/Car Controller For Unity/Materials/Ground.physicMaterial using Guid(9a28d2a7fcbdb1644ae9e1ad888077d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2a0ea2d356d091550477e7083d43c07') in 0.003072 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000173 seconds.
-  path: Assets/MST_Creator/Car Controller For Unity/Materials/Road.physicMaterial
-  artifactKey: Guid(8202f9bbf64f48b4aae60f3851bdd89e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MST_Creator/Car Controller For Unity/Materials/Road.physicMaterial using Guid(8202f9bbf64f48b4aae60f3851bdd89e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '381d4122ffba4d0f027a40ec7993e473') in 0.001838 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000177 seconds.
-  path: Assets/MST_Creator/Car Controller For Unity/Materials/Reverse_Light.mat
-  artifactKey: Guid(58893d37e69048d48b979f1058d1724c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MST_Creator/Car Controller For Unity/Materials/Reverse_Light.mat using Guid(58893d37e69048d48b979f1058d1724c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '096f394bff52f6762cb6acfdcb22270c') in 0.047474 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000445 seconds.
-  path: Assets/MST_Creator/Car Controller For Unity/Materials/HeadLights.mat
-  artifactKey: Guid(ce6ce484c94f38a46aeaee4006d9fa17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MST_Creator/Car Controller For Unity/Materials/HeadLights.mat using Guid(ce6ce484c94f38a46aeaee4006d9fa17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce240f5721caea34bdd5b1e77cd9abd0') in 0.723920 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 5.807087 seconds.
-  path: Assets/MST_Creator/Car Controller For Unity/Prefabs/Car_Canavs.prefab
-  artifactKey: Guid(cb02b5821edba5844ba688e0355d0faf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MST_Creator/Car Controller For Unity/Prefabs/Car_Canavs.prefab using Guid(cb02b5821edba5844ba688e0355d0faf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4be84e8c4d573a42b4f2e9403a01fa7d') in 0.190288 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 46
-========================================================================
-Received Import Request.
-  Time since last request: 0.000095 seconds.
-  path: Assets/MST_Creator/Car Controller For Unity/Prefabs/Low Poly Car 1.prefab
-  artifactKey: Guid(699a0248b4036f64c88fd59f77bc7239) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MST_Creator/Car Controller For Unity/Prefabs/Low Poly Car 1.prefab using Guid(699a0248b4036f64c88fd59f77bc7239) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8820aba823effc32845a1b85546880ba') in 0.282058 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 224
-========================================================================
-Received Import Request.
-  Time since last request: 0.000123 seconds.
-  path: Assets/MST_Creator/Car Controller For Unity/Prefabs/Track_1.prefab
-  artifactKey: Guid(efd488b1f6b854d40ae16195913715d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MST_Creator/Car Controller For Unity/Prefabs/Track_1.prefab using Guid(efd488b1f6b854d40ae16195913715d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '995bcf7938fbe778d25101e94df4a114') in 0.049971 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 55
-========================================================================
-Received Import Request.
-  Time since last request: 75.589855 seconds.
-  path: Assets/MST_Creator/Car Controller For Unity/Texturess/Texture_Materials
-  artifactKey: Guid(16f1ca2d4ab11224ca3868cce40b223a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MST_Creator/Car Controller For Unity/Texturess/Texture_Materials using Guid(16f1ca2d4ab11224ca3868cce40b223a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fccf3c6220940491a6e41116c112136') in 0.001005 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.532733 seconds.
-  path: Assets/MST_Creator/Car Controller For Unity/Texturess/Render_Textures
-  artifactKey: Guid(fe3a6a7f9a33daa40aaefb1aef3bf79a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MST_Creator/Car Controller For Unity/Texturess/Render_Textures using Guid(fe3a6a7f9a33daa40aaefb1aef3bf79a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8724a1529357049f556ac4d300a80c96') in 0.000746 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.078918 seconds.
-  path: Assets/MST_Creator/Car Controller For Unity/Texturess/Render_Textures/Track_1.renderTexture
-  artifactKey: Guid(d19c153cbc9e63d4f82f9319f953927f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MST_Creator/Car Controller For Unity/Texturess/Render_Textures/Track_1.renderTexture using Guid(d19c153cbc9e63d4f82f9319f953927f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c53b400aad9035c9e6b72d9340901cb7') in 0.045420 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.004176 seconds.
-  path: Assets/MST_Creator/Car Controller For Unity/Texturess/Render_Textures/Track_2.renderTexture
-  artifactKey: Guid(7654350bc90dca24ab2a71953c56a702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MST_Creator/Car Controller For Unity/Texturess/Render_Textures/Track_2.renderTexture using Guid(7654350bc90dca24ab2a71953c56a702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd891240d8d8423c84307d1fac766c814') in 0.013895 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 9.996494 seconds.
-  path: Assets/MST_Creator/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset
-  artifactKey: Guid(c41005c129ba4d66911b75229fd70b45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MST_Creator/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset using Guid(c41005c129ba4d66911b75229fd70b45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb7403f2e77b27d9765ecf9029564a4a') in 0.014193 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.944 seconds
-Refreshing native plugins compatible for Editor in 1.78 ms, found 1 plugins.
-Native extension for OSXStandalone target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  4.861 seconds
-Domain Reload Profiling: 5807ms
-	BeginReloadAssembly (366ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (14ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (132ms)
-	RebuildCommonClasses (93ms)
-	RebuildNativeTypeToScriptingClass (31ms)
-	initialDomainReloadingComplete (67ms)
-	LoadAllAssembliesAndSetupDomain (387ms)
-		LoadAssemblies (517ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (26ms)
-			TypeCache.Refresh (9ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (12ms)
-	FinalizeReload (4862ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2218ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (20ms)
-			SetLoadedEditorAssemblies (15ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (176ms)
-			ProcessInitializeOnLoadAttributes (1898ms)
-			ProcessInitializeOnLoadMethodAttributes (105ms)
-			AfterProcessingInitializeOnLoad (4ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (23ms)
-Refreshing native plugins compatible for Editor in 6.28 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1531 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 81 unused Assets / (4.9 MB). Loaded Objects now: 2006.
-Memory consumption went from 191.8 MB to 186.9 MB.
-Total: 18.234282 ms (FindLiveObjects: 0.241402 ms CreateObjectMapping: 0.402070 ms MarkObjects: 11.209627 ms  DeleteObjects: 6.375864 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.789 seconds
-Refreshing native plugins compatible for Editor in 0.39 ms, found 1 plugins.
-Native extension for OSXStandalone target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  3.202 seconds
-Domain Reload Profiling: 3992ms
-	BeginReloadAssembly (246ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (12ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (56ms)
-	RebuildCommonClasses (104ms)
-	RebuildNativeTypeToScriptingClass (48ms)
-	initialDomainReloadingComplete (60ms)
-	LoadAllAssembliesAndSetupDomain (331ms)
-		LoadAssemblies (438ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (19ms)
-			TypeCache.Refresh (8ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (3203ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1806ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (21ms)
-			SetLoadedEditorAssemblies (15ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (171ms)
-			ProcessInitializeOnLoadAttributes (1549ms)
-			ProcessInitializeOnLoadMethodAttributes (47ms)
-			AfterProcessingInitializeOnLoad (2ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (13ms)
-Refreshing native plugins compatible for Editor in 0.44 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1531 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 78 unused Assets / (4.5 MB). Loaded Objects now: 2009.
-Memory consumption went from 191.6 MB to 187.1 MB.
-Total: 7.196589 ms (FindLiveObjects: 0.178134 ms CreateObjectMapping: 0.064403 ms MarkObjects: 4.321779 ms  DeleteObjects: 2.630594 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.787 seconds
-Refreshing native plugins compatible for Editor in 0.37 ms, found 1 plugins.
-Native extension for OSXStandalone target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  3.309 seconds
-Domain Reload Profiling: 4099ms
-	BeginReloadAssembly (275ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (10ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (77ms)
-	RebuildCommonClasses (90ms)
-	RebuildNativeTypeToScriptingClass (31ms)
-	initialDomainReloadingComplete (45ms)
-	LoadAllAssembliesAndSetupDomain (346ms)
-		LoadAssemblies (464ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (22ms)
-			TypeCache.Refresh (7ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (11ms)
-	FinalizeReload (3312ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1869ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (23ms)
-			SetLoadedEditorAssemblies (12ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (141ms)
-			ProcessInitializeOnLoadAttributes (1582ms)
-			ProcessInitializeOnLoadMethodAttributes (106ms)
-			AfterProcessingInitializeOnLoad (5ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (18ms)
-Refreshing native plugins compatible for Editor in 1.40 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1531 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 78 unused Assets / (4.5 MB). Loaded Objects now: 2012.
-Memory consumption went from 191.8 MB to 187.3 MB.
-Total: 13.625596 ms (FindLiveObjects: 0.243797 ms CreateObjectMapping: 0.139959 ms MarkObjects: 8.265405 ms  DeleteObjects: 4.974451 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  3.095 seconds
-Refreshing native plugins compatible for Editor in 0.80 ms, found 1 plugins.
-Native extension for OSXStandalone target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  4.783 seconds
-Domain Reload Profiling: 7881ms
-	BeginReloadAssembly (1254ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (27ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (237ms)
-	RebuildCommonClasses (184ms)
-	RebuildNativeTypeToScriptingClass (58ms)
-	initialDomainReloadingComplete (154ms)
-	LoadAllAssembliesAndSetupDomain (1446ms)
-		LoadAssemblies (1772ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (397ms)
-			TypeCache.Refresh (350ms)
-				TypeCache.ScanAssembly (309ms)
-			ScanForSourceGeneratedMonoScriptInfo (29ms)
-			ResolveRequiredComponents (13ms)
-	FinalizeReload (4785ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2373ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (13ms)
-			SetLoadedEditorAssemblies (8ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (89ms)
-			ProcessInitializeOnLoadAttributes (2016ms)
-			ProcessInitializeOnLoadMethodAttributes (241ms)
-			AfterProcessingInitializeOnLoad (3ms)
-			EditorAssembliesLoaded (3ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (15ms)
-Refreshing native plugins compatible for Editor in 7.64 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1695 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 80 unused Assets / (4.6 MB). Loaded Objects now: 2189.
-Memory consumption went from 199.5 MB to 194.9 MB.
-Total: 19.327969 ms (FindLiveObjects: 1.960053 ms CreateObjectMapping: 0.191639 ms MarkObjects: 9.056705 ms  DeleteObjects: 8.111482 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.938 seconds
-Refreshing native plugins compatible for Editor in 2.39 ms, found 1 plugins.
-Native extension for OSXStandalone target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  7.951 seconds
-Domain Reload Profiling: 9892ms
-	BeginReloadAssembly (725ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (29ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (235ms)
-	RebuildCommonClasses (171ms)
-	RebuildNativeTypeToScriptingClass (53ms)
-	initialDomainReloadingComplete (94ms)
-	LoadAllAssembliesAndSetupDomain (894ms)
-		LoadAssemblies (1207ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (54ms)
-			TypeCache.Refresh (19ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (1ms)
-			ResolveRequiredComponents (26ms)
-	FinalizeReload (7955ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (4279ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (35ms)
-			SetLoadedEditorAssemblies (28ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (296ms)
-			ProcessInitializeOnLoadAttributes (3727ms)
-			ProcessInitializeOnLoadMethodAttributes (185ms)
-			AfterProcessingInitializeOnLoad (7ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (33ms)
-Refreshing native plugins compatible for Editor in 0.67 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1695 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 80 unused Assets / (4.6 MB). Loaded Objects now: 2204.
-Memory consumption went from 200.0 MB to 195.5 MB.
-Total: 70.622123 ms (FindLiveObjects: 0.854128 ms CreateObjectMapping: 0.395565 ms MarkObjects: 60.927585 ms  DeleteObjects: 8.441643 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.677 seconds
-Refreshing native plugins compatible for Editor in 0.65 ms, found 1 plugins.
-Native extension for OSXStandalone target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  7.025 seconds
-Domain Reload Profiling: 8703ms
-	BeginReloadAssembly (627ms)
+- Finished resetting the current domain, in  2.852 seconds
+Domain Reload Profiling: 5602ms
+	BeginReloadAssembly (1098ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (30ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (135ms)
-	RebuildCommonClasses (274ms)
-	RebuildNativeTypeToScriptingClass (66ms)
-	initialDomainReloadingComplete (96ms)
-	LoadAllAssembliesAndSetupDomain (614ms)
-		LoadAssemblies (941ms)
+		CreateAndSetChildDomain (92ms)
+	RebuildCommonClasses (228ms)
+	RebuildNativeTypeToScriptingClass (52ms)
+	initialDomainReloadingComplete (205ms)
+	LoadAllAssembliesAndSetupDomain (1165ms)
+		LoadAssemblies (1443ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (42ms)
-			TypeCache.Refresh (15ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (1ms)
-			ResolveRequiredComponents (20ms)
-	FinalizeReload (7026ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (5133ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (20ms)
-			SetLoadedEditorAssemblies (15ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (214ms)
-			ProcessInitializeOnLoadAttributes (4208ms)
-			ProcessInitializeOnLoadMethodAttributes (415ms)
-			AfterProcessingInitializeOnLoad (261ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (44ms)
-Refreshing native plugins compatible for Editor in 2.62 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1695 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 80 unused Assets / (4.6 MB). Loaded Objects now: 2219.
-Memory consumption went from 200.2 MB to 195.6 MB.
-Total: 37.161418 ms (FindLiveObjects: 1.027301 ms CreateObjectMapping: 0.264485 ms MarkObjects: 27.144717 ms  DeleteObjects: 8.718209 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-========================================================================
-Received Import Request.
-  Time since last request: 2309.565807 seconds.
-  path: Assets/MST_Creator/Car Controller For Unity/Scripts/Camera_Controller.cs
-  artifactKey: Guid(ce34887e20fe4be4fa5641a712a62ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MST_Creator/Car Controller For Unity/Scripts/Camera_Controller.cs using Guid(ce34887e20fe4be4fa5641a712a62ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac69a1c54dfd848509992f1e230f02e7') in 0.011725 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.095 seconds
-Refreshing native plugins compatible for Editor in 0.46 ms, found 1 plugins.
-Native extension for OSXStandalone target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  4.129 seconds
-Domain Reload Profiling: 5227ms
-	BeginReloadAssembly (421ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (23ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (146ms)
-	RebuildCommonClasses (99ms)
-	RebuildNativeTypeToScriptingClass (21ms)
-	initialDomainReloadingComplete (77ms)
-	LoadAllAssembliesAndSetupDomain (477ms)
-		LoadAssemblies (629ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (25ms)
-			TypeCache.Refresh (10ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (11ms)
-	FinalizeReload (4131ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2175ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (23ms)
-			SetLoadedEditorAssemblies (15ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (162ms)
-			ProcessInitializeOnLoadAttributes (1906ms)
-			ProcessInitializeOnLoadMethodAttributes (67ms)
-			AfterProcessingInitializeOnLoad (3ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (15ms)
-Refreshing native plugins compatible for Editor in 1.45 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1695 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 80 unused Assets / (4.5 MB). Loaded Objects now: 2234.
-Memory consumption went from 200.4 MB to 195.9 MB.
-Total: 20.678839 ms (FindLiveObjects: 0.554275 ms CreateObjectMapping: 0.429927 ms MarkObjects: 13.883236 ms  DeleteObjects: 5.802147 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.728 seconds
-Refreshing native plugins compatible for Editor in 0.39 ms, found 1 plugins.
-Native extension for OSXStandalone target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  3.255 seconds
-Domain Reload Profiling: 3984ms
-	BeginReloadAssembly (247ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (11ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (74ms)
-	RebuildCommonClasses (82ms)
-	RebuildNativeTypeToScriptingClass (20ms)
-	initialDomainReloadingComplete (46ms)
-	LoadAllAssembliesAndSetupDomain (333ms)
-		LoadAssemblies (406ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (44ms)
-			TypeCache.Refresh (31ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
+		AnalyzeDomain (493ms)
+			TypeCache.Refresh (461ms)
+				TypeCache.ScanAssembly (424ms)
+			ScanForSourceGeneratedMonoScriptInfo (19ms)
 			ResolveRequiredComponents (9ms)
-	FinalizeReload (3256ms)
+	FinalizeReload (2853ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2119ms)
+		SetupLoadedEditorAssemblies (2088ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (12ms)
-			SetLoadedEditorAssemblies (8ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (112ms)
-			ProcessInitializeOnLoadAttributes (1905ms)
-			ProcessInitializeOnLoadMethodAttributes (75ms)
-			AfterProcessingInitializeOnLoad (6ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (12ms)
-Refreshing native plugins compatible for Editor in 0.66 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1695 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 80 unused Assets / (4.6 MB). Loaded Objects now: 2249.
-Memory consumption went from 200.6 MB to 196.1 MB.
-Total: 17.797912 ms (FindLiveObjects: 0.294230 ms CreateObjectMapping: 0.265919 ms MarkObjects: 8.254882 ms  DeleteObjects: 8.981116 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-========================================================================
-Received Import Request.
-  Time since last request: 547.151363 seconds.
-  path: Assets/MST_Creator/Car Controller For Unity/Scripts/Wheel_Effects.cs
-  artifactKey: Guid(7e0583cf74c79ff48aa4e88fd21f350a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MST_Creator/Car Controller For Unity/Scripts/Wheel_Effects.cs using Guid(7e0583cf74c79ff48aa4e88fd21f350a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '673779dcf26d5bfa6f89f7a09ea0585e') in 0.055614 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 1.200160 seconds.
-  path: Assets/MST_Creator/Car Controller For Unity/Scripts/Speedometer_Controller.cs
-  artifactKey: Guid(62f33511969e29e4ab0729d9b3233f00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MST_Creator/Car Controller For Unity/Scripts/Speedometer_Controller.cs using Guid(62f33511969e29e4ab0729d9b3233f00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2b5ac8207894aa19ca8723c2d5ca797') in 0.001438 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 1.264456 seconds.
-  path: Assets/MST_Creator/Car Controller For Unity/Scripts/Radio.cs
-  artifactKey: Guid(5bc349c5194b73a4baffd6017536dffa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MST_Creator/Car Controller For Unity/Scripts/Radio.cs using Guid(5bc349c5194b73a4baffd6017536dffa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9edc7201bb3e628c133ae91435449429') in 0.001089 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 5.203366 seconds.
-  path: Assets/MST_Creator/Car Controller For Unity/Scripts/Minimap_Cam.cs
-  artifactKey: Guid(6c467025a119de146813ab632a1d4a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MST_Creator/Car Controller For Unity/Scripts/Minimap_Cam.cs using Guid(6c467025a119de146813ab632a1d4a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e5f6a0d61777419020a3868160eb96a') in 0.001147 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 1.199721 seconds.
-  path: Assets/MST_Creator/Car Controller For Unity/Scripts/Car_Controller.cs
-  artifactKey: Guid(504066bd11f3fa8419e01953b914e580) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MST_Creator/Car Controller For Unity/Scripts/Car_Controller.cs using Guid(504066bd11f3fa8419e01953b914e580) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f397ab7ffd314d483e6e0376b1ffff3') in 0.001094 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.327 seconds
-Refreshing native plugins compatible for Editor in 2.16 ms, found 1 plugins.
-Native extension for OSXStandalone target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  5.221 seconds
-Domain Reload Profiling: 6550ms
-	BeginReloadAssembly (398ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (20ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (142ms)
-	RebuildCommonClasses (91ms)
-	RebuildNativeTypeToScriptingClass (27ms)
-	initialDomainReloadingComplete (73ms)
-	LoadAllAssembliesAndSetupDomain (738ms)
-		LoadAssemblies (878ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (27ms)
-			TypeCache.Refresh (11ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (12ms)
-	FinalizeReload (5222ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2261ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (19ms)
-			SetLoadedEditorAssemblies (12ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (176ms)
-			ProcessInitializeOnLoadAttributes (1951ms)
-			ProcessInitializeOnLoadMethodAttributes (100ms)
-			AfterProcessingInitializeOnLoad (2ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (17ms)
-Refreshing native plugins compatible for Editor in 1.15 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1695 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 80 unused Assets / (4.6 MB). Loaded Objects now: 2264.
-Memory consumption went from 200.4 MB to 195.8 MB.
-Total: 13.610022 ms (FindLiveObjects: 0.929281 ms CreateObjectMapping: 0.223037 ms MarkObjects: 5.953216 ms  DeleteObjects: 6.499581 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.833 seconds
-Refreshing native plugins compatible for Editor in 0.51 ms, found 1 plugins.
-Native extension for OSXStandalone target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  3.662 seconds
-Domain Reload Profiling: 4497ms
-	BeginReloadAssembly (317ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (15ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (104ms)
-	RebuildCommonClasses (88ms)
-	RebuildNativeTypeToScriptingClass (25ms)
-	initialDomainReloadingComplete (46ms)
-	LoadAllAssembliesAndSetupDomain (357ms)
-		LoadAssemblies (462ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (29ms)
-			TypeCache.Refresh (10ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (14ms)
-	FinalizeReload (3664ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2103ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (18ms)
-			SetLoadedEditorAssemblies (8ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (121ms)
-			ProcessInitializeOnLoadAttributes (1843ms)
-			ProcessInitializeOnLoadMethodAttributes (100ms)
-			AfterProcessingInitializeOnLoad (12ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (25ms)
-Refreshing native plugins compatible for Editor in 0.63 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1695 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 80 unused Assets / (4.6 MB). Loaded Objects now: 2279.
-Memory consumption went from 200.7 MB to 196.1 MB.
-Total: 15.605359 ms (FindLiveObjects: 0.295107 ms CreateObjectMapping: 0.246096 ms MarkObjects: 8.304483 ms  DeleteObjects: 6.757218 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.897 seconds
-Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
-Native extension for OSXStandalone target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  3.560 seconds
-Domain Reload Profiling: 4458ms
-	BeginReloadAssembly (269ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (14ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (69ms)
-	RebuildCommonClasses (97ms)
-	RebuildNativeTypeToScriptingClass (36ms)
-	initialDomainReloadingComplete (51ms)
-	LoadAllAssembliesAndSetupDomain (445ms)
-		LoadAssemblies (556ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (26ms)
-			TypeCache.Refresh (8ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (12ms)
-	FinalizeReload (3561ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2386ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (15ms)
-			SetLoadedEditorAssemblies (8ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (106ms)
-			ProcessInitializeOnLoadAttributes (2133ms)
-			ProcessInitializeOnLoadMethodAttributes (105ms)
-			AfterProcessingInitializeOnLoad (4ms)
-			EditorAssembliesLoaded (15ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (34ms)
-Refreshing native plugins compatible for Editor in 1.00 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1695 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 80 unused Assets / (4.6 MB). Loaded Objects now: 2294.
-Memory consumption went from 200.9 MB to 196.3 MB.
-Total: 11.673748 ms (FindLiveObjects: 0.474807 ms CreateObjectMapping: 0.391949 ms MarkObjects: 6.558799 ms  DeleteObjects: 4.246419 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.741 seconds
-Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
-Native extension for OSXStandalone target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  4.078 seconds
-Domain Reload Profiling: 4820ms
-	BeginReloadAssembly (257ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (10ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (77ms)
-	RebuildCommonClasses (92ms)
-	RebuildNativeTypeToScriptingClass (31ms)
-	initialDomainReloadingComplete (48ms)
-	LoadAllAssembliesAndSetupDomain (313ms)
-		LoadAssemblies (422ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (18ms)
-			TypeCache.Refresh (6ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (4079ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2448ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (22ms)
-			SetLoadedEditorAssemblies (11ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (179ms)
-			ProcessInitializeOnLoadAttributes (2129ms)
-			ProcessInitializeOnLoadMethodAttributes (104ms)
-			AfterProcessingInitializeOnLoad (3ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (19ms)
-Refreshing native plugins compatible for Editor in 0.44 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1695 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 80 unused Assets / (4.5 MB). Loaded Objects now: 2309.
-Memory consumption went from 201.1 MB to 196.5 MB.
-Total: 14.408350 ms (FindLiveObjects: 0.301332 ms CreateObjectMapping: 0.184642 ms MarkObjects: 7.683633 ms  DeleteObjects: 6.236487 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.213 seconds
-Refreshing native plugins compatible for Editor in 0.56 ms, found 1 plugins.
-Native extension for OSXStandalone target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  4.087 seconds
-Domain Reload Profiling: 5301ms
-	BeginReloadAssembly (258ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (11ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (72ms)
-	RebuildCommonClasses (99ms)
-	RebuildNativeTypeToScriptingClass (136ms)
-	initialDomainReloadingComplete (109ms)
-	LoadAllAssembliesAndSetupDomain (612ms)
-		LoadAssemblies (697ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (40ms)
-			TypeCache.Refresh (19ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (1ms)
-			ResolveRequiredComponents (15ms)
-	FinalizeReload (4088ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2488ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (18ms)
-			SetLoadedEditorAssemblies (12ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (169ms)
-			ProcessInitializeOnLoadAttributes (2221ms)
-			ProcessInitializeOnLoadMethodAttributes (64ms)
-			AfterProcessingInitializeOnLoad (4ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (11ms)
-Refreshing native plugins compatible for Editor in 0.72 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1695 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 80 unused Assets / (4.6 MB). Loaded Objects now: 2324.
-Memory consumption went from 201.3 MB to 196.7 MB.
-Total: 7.319196 ms (FindLiveObjects: 0.302980 ms CreateObjectMapping: 0.077318 ms MarkObjects: 4.734348 ms  DeleteObjects: 2.203105 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.887 seconds
-Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
-Native extension for OSXStandalone target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.387 seconds
-Domain Reload Profiling: 3275ms
-	BeginReloadAssembly (387ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (13ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (69ms)
-	RebuildCommonClasses (86ms)
-	RebuildNativeTypeToScriptingClass (29ms)
-	initialDomainReloadingComplete (46ms)
-	LoadAllAssembliesAndSetupDomain (338ms)
-		LoadAssemblies (434ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (26ms)
-			TypeCache.Refresh (9ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (10ms)
-	FinalizeReload (2388ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1704ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (9ms)
+			InitializePlatformSupportModulesInManaged (13ms)
 			SetLoadedEditorAssemblies (6ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (86ms)
-			ProcessInitializeOnLoadAttributes (1486ms)
-			ProcessInitializeOnLoadMethodAttributes (113ms)
+			BeforeProcessingInitializeOnLoad (258ms)
+			ProcessInitializeOnLoadAttributes (1751ms)
+			ProcessInitializeOnLoadMethodAttributes (58ms)
 			AfterProcessingInitializeOnLoad (2ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (19ms)
-Refreshing native plugins compatible for Editor in 0.72 ms, found 1 plugins.
+		AwakeInstancesAfterBackupRestoration (12ms)
+Launching external process: /Applications/Unity/Hub/Editor/2022.3.26f1/Unity/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.31 seconds
+Refreshing native plugins compatible for Editor in 9.00 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1695 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 80 unused Assets / (4.6 MB). Loaded Objects now: 2339.
-Memory consumption went from 201.4 MB to 196.8 MB.
-Total: 16.353497 ms (FindLiveObjects: 0.588414 ms CreateObjectMapping: 0.447483 ms MarkObjects: 9.706426 ms  DeleteObjects: 5.606952 ms)
+Unloading 1700 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 56 unused Assets / (1.4 MB). Loaded Objects now: 2180.
+Memory consumption went from 210.6 MB to 209.2 MB.
+Total: 17.330109 ms (FindLiveObjects: 0.246828 ms CreateObjectMapping: 0.243319 ms MarkObjects: 15.632183 ms  DeleteObjects: 1.206075 ms)
 
-Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
@@ -1505,350 +186,602 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
 ========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.885 seconds
-Refreshing native plugins compatible for Editor in 0.37 ms, found 1 plugins.
-Native extension for OSXStandalone target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  3.974 seconds
-Domain Reload Profiling: 4862ms
-	BeginReloadAssembly (329ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (15ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (68ms)
-	RebuildCommonClasses (77ms)
-	RebuildNativeTypeToScriptingClass (29ms)
-	initialDomainReloadingComplete (48ms)
-	LoadAllAssembliesAndSetupDomain (402ms)
-		LoadAssemblies (576ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (22ms)
-			TypeCache.Refresh (9ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (3977ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2633ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (18ms)
-			SetLoadedEditorAssemblies (13ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (183ms)
-			ProcessInitializeOnLoadAttributes (2296ms)
-			ProcessInitializeOnLoadMethodAttributes (119ms)
-			AfterProcessingInitializeOnLoad (3ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (16ms)
-Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1695 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 80 unused Assets / (4.6 MB). Loaded Objects now: 2354.
-Memory consumption went from 201.6 MB to 197.0 MB.
-Total: 21.033319 ms (FindLiveObjects: 0.325559 ms CreateObjectMapping: 0.625500 ms MarkObjects: 12.773431 ms  DeleteObjects: 7.306812 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+Received Import Request.
+  Time since last request: 59623.813913 seconds.
+  path: Assets/MST_Creator/Car Controller For Unity/Prefabs/Car_Canavs.prefab
+  artifactKey: Guid(cb02b5821edba5844ba688e0355d0faf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MST_Creator/Car Controller For Unity/Prefabs/Car_Canavs.prefab using Guid(cb02b5821edba5844ba688e0355d0faf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '47c6f4b600688e5921ea957f928bfc72') in 0.676117 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 45
 ========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.088 seconds
-Refreshing native plugins compatible for Editor in 0.57 ms, found 1 plugins.
-Native extension for OSXStandalone target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  3.635 seconds
-Domain Reload Profiling: 4725ms
-	BeginReloadAssembly (385ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (19ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (124ms)
-	RebuildCommonClasses (77ms)
-	RebuildNativeTypeToScriptingClass (30ms)
-	initialDomainReloadingComplete (68ms)
-	LoadAllAssembliesAndSetupDomain (529ms)
-		LoadAssemblies (667ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (33ms)
-			TypeCache.Refresh (16ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (12ms)
-	FinalizeReload (3636ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1943ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (19ms)
-			SetLoadedEditorAssemblies (14ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (157ms)
-			ProcessInitializeOnLoadAttributes (1665ms)
-			ProcessInitializeOnLoadMethodAttributes (85ms)
-			AfterProcessingInitializeOnLoad (2ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (17ms)
-Refreshing native plugins compatible for Editor in 0.82 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1695 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 80 unused Assets / (4.6 MB). Loaded Objects now: 2369.
-Memory consumption went from 201.8 MB to 197.2 MB.
-Total: 13.080439 ms (FindLiveObjects: 0.762142 ms CreateObjectMapping: 0.441975 ms MarkObjects: 8.001094 ms  DeleteObjects: 3.869278 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/MST_Creator/TextMesh Pro/Shaders/TMP_Bitmap.shader
+  artifactKey: Guid(128e987d567d4e2c824d754223b3f3b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MST_Creator/TextMesh Pro/Shaders/TMP_Bitmap.shader using Guid(128e987d567d4e2c824d754223b3f3b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f2a8e7db40aa6a7b96054431ad61d150') in 0.064308 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
 ========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.750 seconds
-Refreshing native plugins compatible for Editor in 0.33 ms, found 1 plugins.
-Native extension for OSXStandalone target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  5.598 seconds
-Domain Reload Profiling: 6350ms
-	BeginReloadAssembly (246ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (10ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (69ms)
-	RebuildCommonClasses (82ms)
-	RebuildNativeTypeToScriptingClass (26ms)
-	initialDomainReloadingComplete (48ms)
-	LoadAllAssembliesAndSetupDomain (347ms)
-		LoadAssemblies (445ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (22ms)
-			TypeCache.Refresh (8ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (5600ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (3025ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (14ms)
-			SetLoadedEditorAssemblies (15ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (182ms)
-			ProcessInitializeOnLoadAttributes (2722ms)
-			ProcessInitializeOnLoadMethodAttributes (88ms)
-			AfterProcessingInitializeOnLoad (4ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (18ms)
-Refreshing native plugins compatible for Editor in 0.54 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1695 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 80 unused Assets / (4.6 MB). Loaded Objects now: 2384.
-Memory consumption went from 202.0 MB to 197.4 MB.
-Total: 16.213859 ms (FindLiveObjects: 0.595248 ms CreateObjectMapping: 0.498455 ms MarkObjects: 8.186141 ms  DeleteObjects: 6.930048 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+Received Import Request.
+  Time since last request: 0.001297 seconds.
+  path: Assets/MST_Creator/Car Controller For Unity/Materials/HeadLights.mat
+  artifactKey: Guid(ce6ce484c94f38a46aeaee4006d9fa17) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MST_Creator/Car Controller For Unity/Materials/HeadLights.mat using Guid(ce6ce484c94f38a46aeaee4006d9fa17) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4a79d821e1106595f19eb1b290efe5e1') in 0.209876 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
 ========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.990 seconds
-Refreshing native plugins compatible for Editor in 0.73 ms, found 1 plugins.
-Native extension for OSXStandalone target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  5.146 seconds
-Domain Reload Profiling: 6141ms
-	BeginReloadAssembly (353ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (21ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (113ms)
-	RebuildCommonClasses (92ms)
-	RebuildNativeTypeToScriptingClass (29ms)
-	initialDomainReloadingComplete (62ms)
-	LoadAllAssembliesAndSetupDomain (455ms)
-		LoadAssemblies (569ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (34ms)
-			TypeCache.Refresh (10ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (16ms)
-	FinalizeReload (5150ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2828ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (21ms)
-			SetLoadedEditorAssemblies (13ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (189ms)
-			ProcessInitializeOnLoadAttributes (2464ms)
-			ProcessInitializeOnLoadMethodAttributes (137ms)
-			AfterProcessingInitializeOnLoad (4ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (19ms)
-Refreshing native plugins compatible for Editor in 2.25 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1695 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 80 unused Assets / (4.6 MB). Loaded Objects now: 2399.
-Memory consumption went from 202.3 MB to 197.7 MB.
-Total: 13.320162 ms (FindLiveObjects: 0.342505 ms CreateObjectMapping: 0.167280 ms MarkObjects: 8.558614 ms  DeleteObjects: 4.249996 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+Received Import Request.
+  Time since last request: 0.000478 seconds.
+  path: Assets/MST_Creator/TextMesh Pro/Resources/LineBreaking Leading Characters.txt
+  artifactKey: Guid(d82c1b31c7e74239bff1220585707d2b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MST_Creator/TextMesh Pro/Resources/LineBreaking Leading Characters.txt using Guid(d82c1b31c7e74239bff1220585707d2b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '696a4921593329774bc538a62ba3ffda') in 0.017244 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
 ========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.038 seconds
-Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
-Native extension for OSXStandalone target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  3.984 seconds
-Domain Reload Profiling: 5025ms
-	BeginReloadAssembly (521ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (14ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (148ms)
-	RebuildCommonClasses (88ms)
-	RebuildNativeTypeToScriptingClass (31ms)
-	initialDomainReloadingComplete (58ms)
-	LoadAllAssembliesAndSetupDomain (341ms)
-		LoadAssemblies (505ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (24ms)
-			TypeCache.Refresh (12ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (3986ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2194ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (20ms)
-			SetLoadedEditorAssemblies (17ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (168ms)
-			ProcessInitializeOnLoadAttributes (1879ms)
-			ProcessInitializeOnLoadMethodAttributes (107ms)
-			AfterProcessingInitializeOnLoad (3ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (24ms)
-Refreshing native plugins compatible for Editor in 0.56 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1695 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 80 unused Assets / (4.6 MB). Loaded Objects now: 2414.
-Memory consumption went from 202.5 MB to 197.9 MB.
-Total: 15.647288 ms (FindLiveObjects: 0.502809 ms CreateObjectMapping: 0.286868 ms MarkObjects: 7.723415 ms  DeleteObjects: 7.132128 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/MST_Creator/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat
+  artifactKey: Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MST_Creator/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat using Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a1bab829a25b683989918acd689b642c') in 0.049495 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
 ========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 2.82 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 65 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 66 unused Assets / (4.6 MB). Loaded Objects now: 2414.
-Memory consumption went from 177.2 MB to 172.6 MB.
-Total: 328.387160 ms (FindLiveObjects: 3.663270 ms CreateObjectMapping: 0.475334 ms MarkObjects: 318.968780 ms  DeleteObjects: 5.277462 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+Received Import Request.
+  Time since last request: 0.009092 seconds.
+  path: Assets/MST_Creator/Car Controller For Unity/Scripts/Radio.cs
+  artifactKey: Guid(5bc349c5194b73a4baffd6017536dffa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MST_Creator/Car Controller For Unity/Scripts/Radio.cs using Guid(5bc349c5194b73a4baffd6017536dffa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8172abf65f371afcaab033af6139d1ab') in 0.009283 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.002602 seconds.
+  path: Assets/MST_Creator/Car Controller For Unity/Texturess/Render_Textures/Track_1.renderTexture
+  artifactKey: Guid(d19c153cbc9e63d4f82f9319f953927f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MST_Creator/Car Controller For Unity/Texturess/Render_Textures/Track_1.renderTexture using Guid(d19c153cbc9e63d4f82f9319f953927f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd94b2938200be9c19830539d626fcc25') in 0.037587 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.005661 seconds.
+  path: Assets/MST_Creator/TextMesh Pro/Shaders/TMPro_Mobile.cginc
+  artifactKey: Guid(c334973cef89a9840b0b0c507e0377ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MST_Creator/TextMesh Pro/Shaders/TMPro_Mobile.cginc using Guid(c334973cef89a9840b0b0c507e0377ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ac0375f869fcd5586ff81efae3aed09e') in 0.019091 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.001928 seconds.
+  path: Assets/MST_Creator/TextMesh Pro/Shaders/TMP_SDF Overlay.shader
+  artifactKey: Guid(dd89cf5b9246416f84610a006f916af7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MST_Creator/TextMesh Pro/Shaders/TMP_SDF Overlay.shader using Guid(dd89cf5b9246416f84610a006f916af7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a338ebcbc510b14f01e7757f72200724') in 0.033389 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.001048 seconds.
+  path: Assets/MST_Creator/Car Controller For Unity/Models/Track (asset 2).fbx
+  artifactKey: Guid(d900a2433953da74b930c6e54269963b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MST_Creator/Car Controller For Unity/Models/Track (asset 2).fbx using Guid(d900a2433953da74b930c6e54269963b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a22d70a12efd9d1da4d5a0411325c8f6') in 0.254193 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.004512 seconds.
+  path: Assets/MST_Creator/TextMesh Pro/Sprites/EmojiOne.json
+  artifactKey: Guid(8f05276190cf498a8153f6cbe761d4e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MST_Creator/TextMesh Pro/Sprites/EmojiOne.json using Guid(8f05276190cf498a8153f6cbe761d4e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '539a9e97283b46227655773abdaf1bde') in 0.017891 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.011640 seconds.
+  path: Assets/MST_Creator/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader
+  artifactKey: Guid(fe393ace9b354375a9cb14cdbbc28be4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MST_Creator/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader using Guid(fe393ace9b354375a9cb14cdbbc28be4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '700c8258f991b877ed798283596024d4') in 0.030801 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.005475 seconds.
+  path: Assets/MST_Creator/Car Controller For Unity/Texturess/Render_Textures/Track_2.renderTexture
+  artifactKey: Guid(7654350bc90dca24ab2a71953c56a702) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MST_Creator/Car Controller For Unity/Texturess/Render_Textures/Track_2.renderTexture using Guid(7654350bc90dca24ab2a71953c56a702) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '32d3cdd81c1023b3885d8ca7accc9dd9') in 0.018921 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.010546 seconds.
+  path: Assets/MST_Creator/TextMesh Pro/Shaders/TMPro.cginc
+  artifactKey: Guid(407bc68d299748449bbf7f48ee690f8d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MST_Creator/TextMesh Pro/Shaders/TMPro.cginc using Guid(407bc68d299748449bbf7f48ee690f8d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'bebb7880a6dab3d0d553c985835ad220') in 0.017043 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.005224 seconds.
+  path: Assets/MST_Creator/Car Controller For Unity/Texturess/Textures/Normal Maps/Snow_NormalMap.png
+  artifactKey: Guid(c4578fe01a2a215419d029de571aa4db) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MST_Creator/Car Controller For Unity/Texturess/Textures/Normal Maps/Snow_NormalMap.png using Guid(c4578fe01a2a215419d029de571aa4db) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5dd4b58dd7a6a0cfd0b5553c9d3d0827') in 0.264650 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/MST_Creator/Car Controller For Unity/Materials/Reverse_Light.mat
+  artifactKey: Guid(58893d37e69048d48b979f1058d1724c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MST_Creator/Car Controller For Unity/Materials/Reverse_Light.mat using Guid(58893d37e69048d48b979f1058d1724c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8cfca3bb7ca8f68994a156ae77f019df') in 0.031734 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/MST_Creator/Car Controller For Unity/Prefabs/Track_1.prefab
+  artifactKey: Guid(efd488b1f6b854d40ae16195913715d6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MST_Creator/Car Controller For Unity/Prefabs/Track_1.prefab using Guid(efd488b1f6b854d40ae16195913715d6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ed904c17de285c0465bdd09bd509ab74') in 0.049232 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/MST_Creator/TextMesh Pro/Resources/TMP Settings.asset
+  artifactKey: Guid(3f5b5dff67a942289a9defa416b206f3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MST_Creator/TextMesh Pro/Resources/TMP Settings.asset using Guid(3f5b5dff67a942289a9defa416b206f3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5a26cebd755990d8d2fbe27b95e095b8') in 0.119563 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000384 seconds.
+  path: Assets/MST_Creator/Car Controller For Unity/Scripts/Camera_Controller.cs
+  artifactKey: Guid(ce34887e20fe4be4fa5641a712a62ede) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MST_Creator/Car Controller For Unity/Scripts/Camera_Controller.cs using Guid(ce34887e20fe4be4fa5641a712a62ede) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2feb23616427f56eba01057640f47d90') in 0.016316 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/MST_Creator/Car Controller For Unity/Scripts/Speedometer_Controller.cs
+  artifactKey: Guid(62f33511969e29e4ab0729d9b3233f00) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MST_Creator/Car Controller For Unity/Scripts/Speedometer_Controller.cs using Guid(62f33511969e29e4ab0729d9b3233f00) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '272a8b4f4cc61101a9ff291cf475558a') in 0.074568 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/MST_Creator/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader
+  artifactKey: Guid(a02a7d8c237544f1962732b55a9aebf1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MST_Creator/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader using Guid(a02a7d8c237544f1962732b55a9aebf1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6e39631b0091d6dfb6c652e37bd51af5') in 0.014897 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/MST_Creator/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader
+  artifactKey: Guid(c8d12adcee749c344b8117cf7c7eb912) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MST_Creator/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader using Guid(c8d12adcee749c344b8117cf7c7eb912) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ce51edd1a3d1a6db87bf0c323b358367') in 0.018274 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.001229 seconds.
+  path: Assets/MST_Creator/TextMesh Pro/Resources/LineBreaking Following Characters.txt
+  artifactKey: Guid(fade42e8bc714b018fac513c043d323b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MST_Creator/TextMesh Pro/Resources/LineBreaking Following Characters.txt using Guid(fade42e8bc714b018fac513c043d323b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'edcd34a63836832e356a9c83e4f5e0a3') in 0.016907 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/MST_Creator/Car Controller For Unity/Texturess/Textures/Normal Maps/grass_NormalMap.png
+  artifactKey: Guid(ea5e4f654a02b374082b9a1c2bbbea55) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MST_Creator/Car Controller For Unity/Texturess/Textures/Normal Maps/grass_NormalMap.png using Guid(ea5e4f654a02b374082b9a1c2bbbea55) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ca501e4066c33e8789fac7c7bac6d712') in 0.077668 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/MST_Creator/Car Controller For Unity/Texturess/Texture_Materials/Grass.mat
+  artifactKey: Guid(36e1003135d4d0045957bd54423f1331) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MST_Creator/Car Controller For Unity/Texturess/Texture_Materials/Grass.mat using Guid(36e1003135d4d0045957bd54423f1331) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e6b0d9733fab06c022e6f67f5197148a') in 0.022247 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.004337 seconds.
+  path: Assets/MST_Creator/Car Controller For Unity/README.txt
+  artifactKey: Guid(73409d6dd9a49054aa220ae423cddb4c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MST_Creator/Car Controller For Unity/README.txt using Guid(73409d6dd9a49054aa220ae423cddb4c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8d3239bde408075f279af346c627bd40') in 0.009774 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.008709 seconds.
+  path: Assets/MST_Creator/TextMesh Pro/Shaders/TMP_SDF SSD.shader
+  artifactKey: Guid(14eb328de4b8eb245bb7cea29e4ac00b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MST_Creator/TextMesh Pro/Shaders/TMP_SDF SSD.shader using Guid(14eb328de4b8eb245bb7cea29e4ac00b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a8de2d3a79d854a2185275ded17f219f') in 0.017260 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.003936 seconds.
+  path: Assets/MST_Creator/Car Controller For Unity/Texturess/Textures/Texture_Images/Snow_Tex.png
+  artifactKey: Guid(6bb1687f66594954fa01fa0c1c5dea71) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MST_Creator/Car Controller For Unity/Texturess/Textures/Texture_Images/Snow_Tex.png using Guid(6bb1687f66594954fa01fa0c1c5dea71) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9b15651d5cbc8f403c1d832053f01aee') in 0.046554 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.002210 seconds.
+  path: Assets/MST_Creator/Car Controller For Unity/Materials/Fence.mat
+  artifactKey: Guid(93d35f40ee7847449bded4ca740461cb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MST_Creator/Car Controller For Unity/Materials/Fence.mat using Guid(93d35f40ee7847449bded4ca740461cb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3d14b8e0f79e25ba0b5c164603c8f827') in 0.015014 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.003643 seconds.
+  path: Assets/MST_Creator/Car Controller For Unity/Texturess/Texture_Materials/Rock.mat
+  artifactKey: Guid(9b4ae7175b4b65d47992bc86fc0601c6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MST_Creator/Car Controller For Unity/Texturess/Texture_Materials/Rock.mat using Guid(9b4ae7175b4b65d47992bc86fc0601c6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b3d4548f31e0b3efd79e4d668dd1a8d6') in 0.018760 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/MST_Creator/Car Controller For Unity/Scenes/Track_2/Track_2_Terrain.asset
+  artifactKey: Guid(e326d08ba7783df40a7fb7324d91f755) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MST_Creator/Car Controller For Unity/Scenes/Track_2/Track_2_Terrain.asset using Guid(e326d08ba7783df40a7fb7324d91f755) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '97be3014b5148a1a9b9f6e47c6d487f3') in 0.089134 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/ecorace1.unity
+  artifactKey: Guid(a1d739dcb1aa8494ea3f95f8b66ee938) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ecorace1.unity using Guid(a1d739dcb1aa8494ea3f95f8b66ee938) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c938ccbcb8f6fa988b6cdbf80aadb2c9') in 0.010665 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.003771 seconds.
+  path: Assets/MST_Creator/Car Controller For Unity/Models/Low Poly Car 1.fbx
+  artifactKey: Guid(aa11055278ae8d84da4d1fbe7f446fdf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MST_Creator/Car Controller For Unity/Models/Low Poly Car 1.fbx using Guid(aa11055278ae8d84da4d1fbe7f446fdf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1191b46eab764bd47405856148daa489') in 0.220334 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 92
+========================================================================
+Received Import Request.
+  Time since last request: 0.000577 seconds.
+  path: Assets/MST_Creator/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MST_Creator/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'fa4153e03f4863bc88682764f6253111') in 0.113719 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000328 seconds.
+  path: Assets/MST_Creator/TextMesh Pro/Sprites/EmojiOne.png
+  artifactKey: Guid(dffef66376be4fa480fb02b19edbe903) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MST_Creator/TextMesh Pro/Sprites/EmojiOne.png using Guid(dffef66376be4fa480fb02b19edbe903) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c6bc313a1b6468485a069e15c650d0a5') in 0.071661 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.002917 seconds.
+  path: Assets/MST_Creator/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset
+  artifactKey: Guid(f952c082cb03451daed3ee968ac6c63e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MST_Creator/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset using Guid(f952c082cb03451daed3ee968ac6c63e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '72fcee32957be3de5126065368f4c740') in 0.011192 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.008205 seconds.
+  path: Assets/MST_Creator/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+  artifactKey: Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MST_Creator/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset using Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b3a98c9318115087534df6edf88b195b') in 0.140533 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000726 seconds.
+  path: Assets/MST_Creator/Car Controller For Unity/Texturess/Textures/Layers/Snow_Layer.terrainlayer
+  artifactKey: Guid(1c8aca11a43eb14429d9a48126cb9363) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MST_Creator/Car Controller For Unity/Texturess/Textures/Layers/Snow_Layer.terrainlayer using Guid(1c8aca11a43eb14429d9a48126cb9363) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b0ca89a761428d43dd16d83bff6d71c0') in 0.026868 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.001769 seconds.
+  path: Assets/MST_Creator/Car Controller For Unity/Materials/Ground.physicMaterial
+  artifactKey: Guid(9a28d2a7fcbdb1644ae9e1ad888077d2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MST_Creator/Car Controller For Unity/Materials/Ground.physicMaterial using Guid(9a28d2a7fcbdb1644ae9e1ad888077d2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6d3b3b41e8d7e71d8847d8842d829ba5') in 0.012383 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000482 seconds.
+  path: Assets/MST_Creator/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader
+  artifactKey: Guid(48bb5f55d8670e349b6e614913f9d910) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MST_Creator/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader using Guid(48bb5f55d8670e349b6e614913f9d910) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e14450f7112928c3cce908aeba8e13a9') in 0.024162 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000442 seconds.
+  path: Assets/MST_Creator/Car Controller For Unity/Materials/Car_Body.mat
+  artifactKey: Guid(5f7aaca4b95905a45b7491158a24472a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MST_Creator/Car Controller For Unity/Materials/Car_Body.mat using Guid(5f7aaca4b95905a45b7491158a24472a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f3c6e8534917e904e22c8c22371f29d3') in 0.011728 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000334 seconds.
+  path: Assets/MST_Creator/Car Controller For Unity/Scripts/Minimap_Cam.cs
+  artifactKey: Guid(6c467025a119de146813ab632a1d4a95) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MST_Creator/Car Controller For Unity/Scripts/Minimap_Cam.cs using Guid(6c467025a119de146813ab632a1d4a95) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1544798e59f8175461033dec43ea0959') in 0.008839 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000593 seconds.
+  path: Assets/MST_Creator/Car Controller For Unity/Texturess/Textures/Texture_Images/Rock_Tex.png
+  artifactKey: Guid(2d16abd052aef65419c289c6159d83f0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MST_Creator/Car Controller For Unity/Texturess/Textures/Texture_Images/Rock_Tex.png using Guid(2d16abd052aef65419c289c6159d83f0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '31b2eb3777dd286974cc57a62b43d6c1') in 0.031352 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000456 seconds.
+  path: Assets/MST_Creator/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader
+  artifactKey: Guid(1e3b057af24249748ff873be7fafee47) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MST_Creator/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader using Guid(1e3b057af24249748ff873be7fafee47) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6c3320515b8ba7a53df8964c29a41f1a') in 0.009904 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000586 seconds.
+  path: Assets/MST_Creator/Car Controller For Unity/Materials/Road.physicMaterial
+  artifactKey: Guid(8202f9bbf64f48b4aae60f3851bdd89e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MST_Creator/Car Controller For Unity/Materials/Road.physicMaterial using Guid(8202f9bbf64f48b4aae60f3851bdd89e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7b1fbfa8152ba71fc5da922caca59fc3') in 0.009099 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000467 seconds.
+  path: Assets/MST_Creator/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset
+  artifactKey: Guid(c41005c129ba4d66911b75229fd70b45) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MST_Creator/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset using Guid(c41005c129ba4d66911b75229fd70b45) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '59bc02665290bb7d48b555f6bd3d65e4') in 0.020991 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/MST_Creator/Car Controller For Unity/Scenes/Track_2/Track_2/OcclusionCullingData.asset
+  artifactKey: Guid(a25e88adae33dce4f8d08e8217d22b5a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MST_Creator/Car Controller For Unity/Scenes/Track_2/Track_2/OcclusionCullingData.asset using Guid(a25e88adae33dce4f8d08e8217d22b5a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9b4cdb138c3b977a00aeb0ee8aa99e08') in 0.216011 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/MST_Creator/Car Controller For Unity/Texturess/Textures/Layers/Grass_Layer.terrainlayer
+  artifactKey: Guid(be2cd646139bff044b255b35a18bbb1c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MST_Creator/Car Controller For Unity/Texturess/Textures/Layers/Grass_Layer.terrainlayer using Guid(be2cd646139bff044b255b35a18bbb1c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4c08beed3c3a7595d82e93b4e963dca5') in 0.014748 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.001174 seconds.
+  path: Assets/MST_Creator/Car Controller For Unity/Scenes/Track_1/Track_1.unity
+  artifactKey: Guid(716fea055ccdd8b4d9cedccd95e93d86) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MST_Creator/Car Controller For Unity/Scenes/Track_1/Track_1.unity using Guid(716fea055ccdd8b4d9cedccd95e93d86) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '87d08ac7588231e8a116dd9514aa5e04') in 0.011912 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/ecorace_2.unity
+  artifactKey: Guid(f6082001966de43d4823a754aead8122) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ecorace_2.unity using Guid(f6082001966de43d4823a754aead8122) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0c5cd18c9f341935b7cc62ef4c8c84bf') in 0.004386 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/MST_Creator/Car Controller For Unity/Models/Pointer.fbx
+  artifactKey: Guid(3004b630a8232b744b6ce0f4fcb35898) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MST_Creator/Car Controller For Unity/Models/Pointer.fbx using Guid(3004b630a8232b744b6ce0f4fcb35898) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '538f60331cce0f8fec8b1d120bb8c5fe') in 0.053062 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000762 seconds.
+  path: Assets/MST_Creator/Car Controller For Unity/Texturess/Textures/Normal Maps/Rock_NormalMap.png
+  artifactKey: Guid(f4da8c4bb58bbc442a729a0339fd751e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MST_Creator/Car Controller For Unity/Texturess/Textures/Normal Maps/Rock_NormalMap.png using Guid(f4da8c4bb58bbc442a729a0339fd751e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '70c98167113c9e20d1a6cf2d8030463f') in 0.035057 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/MST_Creator/Car Controller For Unity/Prefabs/Low Poly Car 1.prefab
+  artifactKey: Guid(699a0248b4036f64c88fd59f77bc7239) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MST_Creator/Car Controller For Unity/Prefabs/Low Poly Car 1.prefab using Guid(699a0248b4036f64c88fd59f77bc7239) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '131f502b1baae2e7ce2057fe6cf13990') in 0.075155 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 143
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/MST_Creator/Car Controller For Unity/Scripts/Car_Controller.cs
+  artifactKey: Guid(504066bd11f3fa8419e01953b914e580) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MST_Creator/Car Controller For Unity/Scripts/Car_Controller.cs using Guid(504066bd11f3fa8419e01953b914e580) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5ba4863b08dafc3ba0c9fad98816b766') in 0.013675 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000449 seconds.
+  path: Assets/MST_Creator/TextMesh Pro/Shaders/TMP_SDF-Surface.shader
+  artifactKey: Guid(f7ada0af4f174f0694ca6a487b8f543d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MST_Creator/TextMesh Pro/Shaders/TMP_SDF-Surface.shader using Guid(f7ada0af4f174f0694ca6a487b8f543d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6bacf68b992c12d7f2305a7b8e9da536') in 0.012089 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000562 seconds.
+  path: Assets/MST_Creator/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf
+  artifactKey: Guid(1b8d251f9af63b746bf2f7ffe00ebb9b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MST_Creator/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf using Guid(1b8d251f9af63b746bf2f7ffe00ebb9b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'bfffe63a57176d8ff1efae1cce2b32ad') in 0.005648 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000855 seconds.
+  path: Assets/MST_Creator/Car Controller For Unity/Models/Track 1.fbx
+  artifactKey: Guid(4364943ee6cac1543bc0dd4fc2c49976) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MST_Creator/Car Controller For Unity/Models/Track 1.fbx using Guid(4364943ee6cac1543bc0dd4fc2c49976) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8ad74cc8a0dd618df2eb08f980b540c8') in 0.069098 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 0.000332 seconds.
+  path: Assets/MST_Creator/TextMesh Pro/Shaders/TMPro_Properties.cginc
+  artifactKey: Guid(3997e2241185407d80309a82f9148466) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MST_Creator/TextMesh Pro/Shaders/TMPro_Properties.cginc using Guid(3997e2241185407d80309a82f9148466) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f8522120a045a278b647325359162037') in 0.008086 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000760 seconds.
+  path: Assets/MST_Creator/Car Controller For Unity/Texturess/Textures/Texture_Images/Grass_Tex.png
+  artifactKey: Guid(2b61b8c42df948642a6ca780db67838f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MST_Creator/Car Controller For Unity/Texturess/Textures/Texture_Images/Grass_Tex.png using Guid(2b61b8c42df948642a6ca780db67838f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '32a5759730b65642d8e5df35823c80d0') in 0.029106 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000372 seconds.
+  path: Assets/MST_Creator/TextMesh Pro/Fonts/LiberationSans - OFL.txt
+  artifactKey: Guid(6e59c59b81ab47f9b6ec5781fa725d2c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MST_Creator/TextMesh Pro/Fonts/LiberationSans - OFL.txt using Guid(6e59c59b81ab47f9b6ec5781fa725d2c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '89c8dff7719ca45462588412a0e1a59b') in 0.007111 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000555 seconds.
+  path: Assets/MST_Creator/Car Controller For Unity/Scenes/Track_2/Track_2.unity
+  artifactKey: Guid(c826712f5785ad443a296086bdcd1d99) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MST_Creator/Car Controller For Unity/Scenes/Track_2/Track_2.unity using Guid(c826712f5785ad443a296086bdcd1d99) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '53dcd6ff035dabe31a71df282256ef04') in 0.004487 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.001070 seconds.
+  path: Assets/MST_Creator/Car Controller For Unity/Texturess/Textures/Layers/Rock_Layer.terrainlayer
+  artifactKey: Guid(bae0b90d0a48fc04587af7d1467f0f9f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MST_Creator/Car Controller For Unity/Texturess/Textures/Layers/Rock_Layer.terrainlayer using Guid(bae0b90d0a48fc04587af7d1467f0f9f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4856a58d43a2f94e8fd77d24690a1b5a') in 0.012398 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000690 seconds.
+  path: Assets/MST_Creator/Car Controller For Unity/Materials/Ground.mat
+  artifactKey: Guid(ad17220815948064e9f671d00b70227d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MST_Creator/Car Controller For Unity/Materials/Ground.mat using Guid(ad17220815948064e9f671d00b70227d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '72a805cee18197906efed8286fbad8b3') in 0.010300 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000577 seconds.
+  path: Assets/MST_Creator/TextMesh Pro/Shaders/TMP_SDF.shader
+  artifactKey: Guid(68e6db2ebdc24f95958faec2be5558d6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MST_Creator/TextMesh Pro/Shaders/TMP_SDF.shader using Guid(68e6db2ebdc24f95958faec2be5558d6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c517254c232c73b9746830ac5cf93f87') in 0.009666 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000335 seconds.
+  path: Assets/MST_Creator/TextMesh Pro/Shaders/TMP_Sprite.shader
+  artifactKey: Guid(cf81c85f95fe47e1a27f6ae460cf182c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MST_Creator/TextMesh Pro/Shaders/TMP_Sprite.shader using Guid(cf81c85f95fe47e1a27f6ae460cf182c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5eabc1ea69e21a6436cb6e3bd798bf8e') in 0.008615 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/MST_Creator/Car Controller For Unity/Scenes/Track_2/OcclusionCullingData.asset
+  artifactKey: Guid(1c26a0ec9a04b4042b8901f8b3ec2b29) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MST_Creator/Car Controller For Unity/Scenes/Track_2/OcclusionCullingData.asset using Guid(1c26a0ec9a04b4042b8901f8b3ec2b29) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3568cb5e58f82a19f02192052d5900ba') in 0.218508 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000594 seconds.
+  path: Assets/MST_Creator/TextMesh Pro/Sprites/EmojiOne Attribution.txt
+  artifactKey: Guid(381dcb09d5029d14897e55f98031fca5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MST_Creator/TextMesh Pro/Sprites/EmojiOne Attribution.txt using Guid(381dcb09d5029d14897e55f98031fca5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'de7bcd7d45f45c2b415e994d44bfd088') in 0.016453 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.001221 seconds.
+  path: Assets/MST_Creator/Car Controller For Unity/Texturess/Texture_Materials/Snow.mat
+  artifactKey: Guid(2f2e57044e7161041ba291c33b4c6d6b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MST_Creator/Car Controller For Unity/Texturess/Texture_Materials/Snow.mat using Guid(2f2e57044e7161041ba291c33b4c6d6b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e10be863d4a4497b29885e7e4b91dafb') in 0.014292 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000347 seconds.
+  path: Assets/MST_Creator/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader
+  artifactKey: Guid(85187c2149c549c5b33f0cdb02836b17) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MST_Creator/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader using Guid(85187c2149c549c5b33f0cdb02836b17) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f49173b423086c3a8bbadfbeb598c8b7') in 0.010475 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000677 seconds.
+  path: Assets/MST_Creator/Car Controller For Unity/Scenes/Track_1/LightingData.asset
+  artifactKey: Guid(9606f4de43880eb4d979cbd69419358d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MST_Creator/Car Controller For Unity/Scenes/Track_1/LightingData.asset using Guid(9606f4de43880eb4d979cbd69419358d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '59a767e9ca9cf92753d36cfd03b2b673') in 0.012440 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/MST_Creator/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader
+  artifactKey: Guid(bc1ede39bf3643ee8e493720e4259791) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MST_Creator/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader using Guid(bc1ede39bf3643ee8e493720e4259791) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4202cc85b7fabe8d8c9f9fb5ee99f9fc') in 0.010574 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/MST_Creator/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat
+  artifactKey: Guid(79459efec17a4d00a321bdcc27bbc385) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MST_Creator/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat using Guid(79459efec17a4d00a321bdcc27bbc385) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8f1528f45f42fd82a2f4c312766561b1') in 0.027391 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/MST_Creator/Car Controller For Unity/Scripts/Wheel_Effects.cs
+  artifactKey: Guid(7e0583cf74c79ff48aa4e88fd21f350a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MST_Creator/Car Controller For Unity/Scripts/Wheel_Effects.cs using Guid(7e0583cf74c79ff48aa4e88fd21f350a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7eb5f762fbfb0207dcfd14504813adf4') in 0.009012 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000539 seconds.
+  path: Assets/MST_Creator/TextMesh Pro/Shaders/TMPro_Surface.cginc
+  artifactKey: Guid(d930090c0cd643c7b55f19a38538c162) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MST_Creator/TextMesh Pro/Shaders/TMPro_Surface.cginc using Guid(d930090c0cd643c7b55f19a38538c162) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '942a8dc3a2722fcb96285641060a801d') in 0.008054 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000475 seconds.
+  path: Assets/MST_Creator/TextMesh Pro/Fonts/LiberationSans.ttf
+  artifactKey: Guid(e3265ab4bf004d28a9537516768c1c75) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MST_Creator/TextMesh Pro/Fonts/LiberationSans.ttf using Guid(e3265ab4bf004d28a9537516768c1c75) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6266ed233ae1887ec826692a2bc8e9e2') in 0.055981 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
